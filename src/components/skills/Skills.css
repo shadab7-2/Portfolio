@@ -1,0 +1,106 @@
+.skills-main-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.skl-top-btm-cont {
+  margin-top: 5vh;
+}
+.skl-cont-header {
+  font-size: 2.1rem;
+  color: rgb(190, 190, 27);
+  text-transform: uppercase;
+}
+.skl-top-btm-main-cont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.skl-top-btm-main-cont,
+.skl-btm-main-cont {
+  gap: 2.2rem;
+
+  margin: auto;
+  margin-top: 4vh;
+}
+.skl-btm-main-cont {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.skl-inner-cont {
+  height: 200px;
+  width: 185px;
+  background: #272729;
+  transition: all 0.5s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vh;
+  flex-direction: column;
+}
+.skl-inner-cont:hover {
+  background: rgb(27, 26, 26);
+}
+.skl-inner-icon {
+  color: #b3b9c5;
+  font-size: 4.7rem;
+  transition: all 0.5s linear;
+}
+.skl-inner-header {
+  color: #b3b9c5;
+  font-size: 1rem;
+  transition: all 0.5s linear;
+}
+.skl-inner-js-icon {
+  font-size: 4.7rem;
+}
+.skl-inner-cont:hover .skl-inner-react-icon,
+.skl-inner-cont:hover .skl-inner-react-header {
+  color: yellow;
+}
+.skl-inner-cont:hover .skl-inner-js-icon,
+.skl-inner-cont:hover .skl-inner-js-header {
+  color: rgb(8, 184, 243);
+}
+.skl-inner-cont:hover .skl-inner-css-icon,
+.skl-inner-cont:hover .skl-inner-css-header {
+  color: rgb(129, 8, 242);
+}
+.skl-inner-cont:hover .skl-inner-redux-icon,
+.skl-inner-cont:hover .skl-inner-redux-header {
+  color: rgb(242, 8, 24);
+}
+
+.skl-inner-cont:hover .skl-inner-html-icon,
+.skl-inner-cont:hover .skl-inner-html-header {
+  color: rgb(78, 242, 8);
+}
+.skl-inner-cont:hover .skl-inner-frend-icon,
+.skl-inner-cont:hover .skl-inner-frend-header {
+  color: rgb(229, 9, 181);
+}
+.skl-inner-cont:hover .skl-inner-dsa-icon,
+.skl-inner-cont:hover .skl-inner-dsa-header {
+  color: rgb(231, 103, 5);
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 680px) {
+  .skl-cont-header {
+    font-size: 1.7rem;
+  }
+  .skl-top-btm-main-cont,
+  .skl-btm-main-cont {
+    gap: 1rem;
+  }
+}
