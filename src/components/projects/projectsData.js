@@ -27,7 +27,7 @@ export const projectData = [
     project_desc:
       "Developed and launched a dynamic website for Fit Club Gym, offering a seamless online experience for gym members and potential customers. The website aimed to showcase the gym's facilities, services, and membership options while promoting engagement and conversion.",
     deploy_link: "https://aadityaneve.github.io/Clone-Pluralsight",
-    repo_link: "https://github.com/aadityaneve/Clone-Pluralsight",
+    repo_link: "https://github.com/shadab7-2/React-Project/tree/real-estate",
     tech_stack: [
       <FaHtml5 className="prj-flx-inner-tech-stk-icon" />,
       <FaCss3 className="prj-flx-inner-tech-stk-icon" />,
@@ -44,7 +44,7 @@ export const projectData = [
     project_desc:
       "Developed a frontend for an Instagram Clone application that replicated the core features and user interface of the popular social media platform. The project aimed to provide users with a familiar and intuitive experience for sharing photos, following other users, and engaging with content.",
     deploy_link: "https://aadityaneve.github.io/Movie-App",
-    repo_link: "https://github.com/aadityaneve/Movie-App",
+    repo_link: "https://github.com/shadab7-2/React-Project/tree/real-estate",
     tech_stack: [
       <FaReact />,
       <FaJs className="prj-flx-inner-tech-stk-icon" />,
